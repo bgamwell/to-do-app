@@ -19,7 +19,7 @@ $(function() {
   });
 
   $resetButton.on("click", function(event){
-    $toDoList.remove();
+    $toDoList.empty();
   });
 
   $toDoList.on("click", "li", function(event) {
