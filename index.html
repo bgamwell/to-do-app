@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Custom font from Google -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
+
+    <meta charset="utf-8">
+    <title>T00dle</title>
+    <meta name="description" content="The most productivity-boosting to-do list in the universe.">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3 text-center">
+          <h1 class="text-center">T00dle</h1>
+          <p>The most productivity-boosting to-do list in the universe.<p>
+          <p class="instructions text-center">Just add your to-do's using the form. Click on a task to mark it off your list. When you're all done, simply click the "I'm done!" button to clear the page.</p>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <form class="text-center" id="new-item">
+              <div class="form-group">
+                <input type="text" class="form-control" id="item-name" placeholder="What's on your to-do list?" autofocus>
+              </div>
+              <div class="form-group">
+                <input type="submit" class="btn btn-success" value="Add to the List!">
+              </div>
+            </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <center><button id="reset" class="btn btn-danger">I'm all done!</button><center>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <ul id="todo-list">
+            <!-- to-do list items will be appended to this unordered list -->
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery Library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <!-- Bootstrap Javascript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+
+  </body>
+</html>
