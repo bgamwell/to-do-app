@@ -6,3 +6,12 @@ h1 {
 .instructions {
   font-style: italic;
 }
+
+li {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+
+.done {
+  text-decoration: line-through;
+}
